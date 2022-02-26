@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Ejemplo HTML y JavaScript</title>
+ </head>
+ <body>
+   <h1>
+     Encabezado 1.
+   </h1>
+   <hr />
+   <h2>
+     Encabezado 2.
+   </h2>
+   <p>
+     Párrafo para encabezado 2.
+   </p>
+   <hr />
+   <h5>
+     Encabezado 5.
+   </h5>
+   <p>
+     Párrafo para encabezado 5.
+     <br />Con salto de línea
+   </p>
+   <!--
+     La etiqueta `script` permite ejecutar código
+     JavaScript directamente en el navegador
+   -->
+   <script>
+    // Por medio de un selector `('p')`, JavaScript accede al DOM,
+    // el cual regresa un arreglo de elementos que cumplen con el selector
+    // en este caso el conjunto de 2 párrafos que existen en el DOM.
+    alert(document.querySelectorAll('p').length);
+   </script>
+   <script src="./app.js"></script>
+ </body>
+</html>

@@ -1,0 +1,45 @@
+/* Transición sobre todos los divs del documento HTML */
+div {
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 2s;
+   }
+   
+   /* Cambia el tamaño del div cuando se pasa el ratón sobre éste */
+   div:hover {
+    width: 800px;
+   }
+   
+   .transicion-linear {
+    transition-timing-function: linear;
+   }
+   
+   .transicion-ease {
+    transition-timing-function: ease;
+   }
+   
+   .transicion-ease-in {
+    transition-timing-function: ease-in;
+   }
+   
+   .transicion-ease-out {
+    transition-timing-function: ease-out;
+   }
+   
+   transicion-ease-in-out {
+    transition-timing-function: ease-in-out;
+   }
+   
+   /* Transición asignada con propiedades separadas */
+   .transicion-separada {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+   }
+   
+   /* Transición asignada en una misma propiedad */
+   .transicion-completa {
+    transition: width 2s linear 1s;
+   }

@@ -1,0 +1,25 @@
+/* Archivo Estilos.css */
+
+/* Se aplica directamente al elemento <body> */
+body {
+    color: blue;
+   }
+   /* Se aplica directamente a todos los elementos de tipo <p> */
+   p {
+    color: red;
+   }
+   
+   /* Se aplica en el(los) elemento(s) donde se use */
+   .clase-css {
+    color: black;
+   }
+   .borde-completo {
+    border: 5px solid red;
+   }
+   
+   .bordes-laterales {
+    /* El orden es top right bottom left */
+    border-style: none dotted none dotted;
+    border-width: 2px;
+    border-color: #00AA00;
+   }

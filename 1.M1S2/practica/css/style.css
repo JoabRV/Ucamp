@@ -1,0 +1,182 @@
+
+h2 {
+    border: 1px solid blue;
+}
+header h1.h1{
+    border: 1px dotted black;
+}
+header h1.h2{
+    border: 2px dashed red;
+}
+header h1.h3{
+    border: 3px solid green;
+}
+header h1.h4{
+    border: 4px double gold;
+}
+header h1.h5{
+    border: 4px groove firebrick;
+}
+header h1.h6{
+    border: 4px ridge tan;
+}
+header h1.h7{
+    border: 4px inset salmon;
+}
+header h1.h8{
+    border: 4px outset hotpink;
+}
+header h1.h9{
+    border: 4px none yellowgreen;
+}
+header h1.h10{
+    border: 4px hidden magenta;
+}
+header section.margin{
+    border: 2px groove teal;
+    margin: 3px 50px 5px 50px;
+    padding: 1px 1px 25px 30px;
+    background: blueviolet url("./ni;oTomaAgua.jpg") no-repeat left bottom;    
+}
+header section.image{
+    background-color: aqua;
+    background-image: url("");
+}
+
+header p.p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+header p.p2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+}
+header p.p3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+header p.p4{
+    color: brown;
+}
+header p.p5{
+    color: rgb(0, 255, 21);
+}
+header p.p6{
+    color: rgb(226, 43, 134);
+}
+header p.p7{
+    color: rgb(43, 226, 226);
+}
+
+section.ejemplo{
+    border: medium double blueviolet;
+}
+
+section h1.trans{
+    
+    transform: matrix(1,-0.3,0,1,0,0);
+
+}
+
+section div.div1{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    
+}
+section div.div1:hover{
+ width: 800px;
+ background: blue;
+ transform: rotateX(150deg);
+ transform: rotateY(130deg);
+ transform: rotateZ(90deg);
+}
+section div.div2{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 1s;
+}
+section div.div2:hover{
+ width: 800px;
+ background: blue;
+ transition-timing-function: linear;
+}
+section div.div3{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 1s;
+}
+section div.div3:hover{
+ width: 800px;
+ background: blue;
+ transition-timing-function: ease;
+}
+section div.div4{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 1s;
+}
+section div.div4:hover{
+ width: 100%;
+ background: blue;
+ transition-timing-function: ease-in;
+}
+section div.div5{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 1s;
+}
+section div.div5:hover{
+ width: 100%;
+ background: blue;
+ transition-timing-function: ease-out;
+}
+section div.div6{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 1s;
+}
+section div.div6:hover{
+    width: 100%;
+    background: blue;
+    transition-timing-function: ease-in-out;
+}
+section div.div7{
+    width: 500px;
+    height: 100px;
+    background: gray;
+    transition: width 1s;
+}
+section div.div7:hover{
+    width: 100%;
+    background: blue;
+    transition-timing-function: cubic-beizer(2,2,4,4);;
+}
+
+
+
+@media screen and (max-width: 426px){
+    h1 {
+        color: white;
+    }
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    h1 {
+        color: red;
+    }
+    body {
+        background-color: blue;
+    }
+}
